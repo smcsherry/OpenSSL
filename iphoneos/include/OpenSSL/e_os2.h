@@ -258,6 +258,7 @@ typedef unsigned __int64 uint64_t;
 # endif
 # if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L && \
     defined(INTMAX_MAX) && defined(UINTMAX_MAX)
+#include <stdint.h>
 typedef intmax_t ossl_intmax_t;
 typedef uintmax_t ossl_uintmax_t;
 # else
